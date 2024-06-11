@@ -1,14 +1,16 @@
 [tool.poetry]
-name = "network security"
+name = "networksecurity"
 version = "0.1.0"
-description = "Processing and urilizing CTU-13 dataset for packet analysis"
+description = ""
 authors = ["Scott <scowty.sk@outlook.com>"]
-license = "CC-BY-4.0"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pandas = "2.2"
+pandas = "*"
+pyshark = "0.6"
+psutil = "5.9.8"
+numpy = "1.26.4"
 
 
 [build-system]

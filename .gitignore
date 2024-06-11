@@ -1,1 +1,7 @@
+*.txt
 *.csv
+__pycache__
+*.argus
+*.log
+*.pyc
+.idea/
